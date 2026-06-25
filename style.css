@@ -1,13 +1,13 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #1B3B6F, #0B6B9F);
-    color: #F1FAEE;
+    background: #21302b;
+    color: #E6E2DA;
 }
 
 header {
-    background: #E63946;
-    color: #F1FAEE;
+    background: #182115;
+    color: #E6E2DA;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -15,7 +15,7 @@ header {
 }
 
 nav a {
-    color: #F1FAEE;
+    color: #A6824A;
     margin-left: 20px;
     text-decoration: none;
     font-weight: bold;
@@ -34,10 +34,10 @@ nav a {
 }
 
 .card {
-    background: #F1FAEE;
+    background: #21302b;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .card img {
@@ -55,8 +55,8 @@ nav a {
 .button {
     display: inline-block;
     padding: 10px 16px;
-    background: #F4A261;
-    color: #1D3557;
+    background: #21302b;
+    color: #A6824A;
     border-radius: 6px;
     text-decoration: none;
 }
@@ -70,7 +70,7 @@ nav a {
 footer {
     text-align: center;
     padding: 20px;
-    background: #264653;
-    color: #F1FAEE;
+    background: #A6824A;
+    color: #E6E2DA;
     margin-top: 40px;
 }
