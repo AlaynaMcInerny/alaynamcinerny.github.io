@@ -74,3 +74,18 @@ footer {
     color: #E6E2DA;
     margin-top: 40px;
 }
+
+.resume-container {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.resume-frame {
+    width: 80vw;      /* 80% of the viewport width */
+    height: 90vh;     /* 90% of the viewport height */
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    background: white;
+}
+
