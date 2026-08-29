@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Lumiare';
+  src: url('../Lumiare.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #eeebda;
+  background: #282b4a;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: #282b4a;
+  color: #eeebda;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: inherit;
+}
