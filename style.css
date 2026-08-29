@@ -72,17 +72,33 @@ nav a {
 .bio {
     grid-column: 1 / -1;
     font-family: "Segoe UI", sans-serif;
-    max-width: 900px;
+    width: 100%;
+    max-width: none;
 }
 
 .bio-sections {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(20px, 2.5vw, 48px);
+    align-items: stretch;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bio-sections section {
+    padding: 0 8px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .bio-sections h4 {
-    margin-bottom: 0;
+    margin-bottom: 12px;
+}
+
+.bio-sections p {
+    margin: 0;
+    line-height: 1.6;
 }
 
 @media (max-width: 700px) {
@@ -344,9 +360,10 @@ footer {
 
 .contact-links {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(16px, 2vw, 28px);
     margin-top: 60px;
+    align-items: stretch;
 }
 
 .contact-link {
@@ -354,6 +371,7 @@ footer {
     flex-direction: column;
     gap: 14px;
     min-height: 130px;
+    height: 100%;
     padding: 24px;
     background: #202238;
     color: #EEEBDA;
